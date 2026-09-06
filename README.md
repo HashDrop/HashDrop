@@ -4,9 +4,17 @@
 
 **Upload a file. Get a hash. Use it. Done.**
 
-HashDrop is built for people who just want to move a file somewhere temporarily without creating an account, fighting upload limits, or dealing with complicated file-sharing services.
+HashDrop is a simple temporary file uploader built for people who just want to move a file somewhere without creating an account, fighting upload limits, or dealing with complicated file-sharing services.
 
 It is especially useful when **ChatGPT refuses to upload a file or silently fails**, but it can also be used as a simple temporary file uploader on its own.
+
+## 🚀 Get Started
+
+### [Open HashDrop](https://hashdrop.github.io/)
+
+No signup. No login. No installation.
+
+Just open the website and upload your file.
 
 ---
 
@@ -35,7 +43,9 @@ Instead, you run into:
 
 ### 1. Open HashDrop
 
-Go to HashDrop.
+Go to:
+
+### [https://hashdrop.github.io/](https://hashdrop.github.io/)
 
 You don't need to:
 
@@ -61,17 +71,27 @@ The file is processed and made available through your temporary session.
 
 ---
 
-### 3. Use your hash
+### 3. Get your hash
 
-HashDrop gives you a unique hash.
+HashDrop gives you a unique hash for your temporary file.
 
-For ChatGPT, simply provide the hash and tell ChatGPT to retrieve your file through HashDrop.
+Keep this hash private.
 
-You can then work with the contents of the file directly in your conversation.
+You can use it to access your file and, when using the ChatGPT integration, allow ChatGPT to retrieve the file.
 
 ---
 
-### 4. Upload another file
+### 4. Use your file
+
+You can now use your temporary file for whatever you need.
+
+For ChatGPT, simply give ChatGPT your HashDrop hash and ask it to retrieve the file through HashDrop.
+
+You don't need to manually configure or interact with the underlying MCP service.
+
+---
+
+### 5. Upload another file
 
 You don't need to manage multiple files.
 
@@ -90,7 +110,7 @@ Upload
   ↓
 File A disappears
 File B becomes available
-```
+````
 
 This keeps the experience simple and temporary.
 
@@ -116,7 +136,7 @@ Stop using HashDrop
 File expires
 ```
 
-This means you don't have to remember to clean up temporary files yourself.
+You don't have to remember to clean up temporary files yourself.
 
 ---
 
@@ -148,21 +168,27 @@ HashDrop can also be used independently of ChatGPT.
 
 Need to temporarily upload files without maintaining an account or a permanent file library?
 
-HashDrop gives you a simple workflow:
+Just open HashDrop:
+
+### [https://hashdrop.github.io/](https://hashdrop.github.io/)
+
+Then:
 
 ```text
+Open HashDrop
+     ↓
 Upload
-  ↓
+     ↓
 Get hash
-  ↓
+     ↓
 Use / transfer file
-  ↓
+     ↓
 Upload another file
-  ↓
+     ↓
 Old file replaced
 ```
 
-There is no need to organize folders, manage storage quotas, or maintain an account.
+There is no need to organize folders, manage a permanent file library, or maintain an account.
 
 As long as each file is within the **500 KB upload limit**, you can keep using HashDrop for temporary uploads.
 
@@ -190,21 +216,47 @@ Split the file
 Try again
 ```
 
-### Use:
+### Use HashDrop:
 
 ```text
-Upload to HashDrop
-        ↓
-Copy hash
-        ↓
-Give hash to ChatGPT
-        ↓
+Open HashDrop
+      ↓
+Upload your file
+      ↓
+Copy your hash
+      ↓
+Give the hash to ChatGPT
+      ↓
 ChatGPT retrieves the file
-        ↓
+      ↓
 Continue working
 ```
 
-No account or complicated file-sharing workflow is required.
+### You don't need to know how the integration works.
+
+Just use the HashDrop website and give ChatGPT the hash when you want it to access your file.
+
+The technical integration runs behind the scenes.
+
+---
+
+# 🔌 ChatGPT Integration
+
+HashDrop can connect with ChatGPT through an MCP integration.
+
+The MCP integration allows ChatGPT to retrieve the temporary file associated with your HashDrop hash.
+
+**For normal users, the recommended workflow is simply:**
+
+1. [Open HashDrop](https://hashdrop.github.io/)
+2. Upload your file
+3. Copy your hash
+4. Give the hash to ChatGPT
+5. Ask ChatGPT to retrieve and work with the file
+
+You don't need to visit or interact with the MCP server directly.
+
+HashDrop is designed so that the technical integration stays out of the way.
 
 ---
 
@@ -241,13 +293,17 @@ It's for situations where you think:
 
 > **"I just need to get this file somewhere."**
 
-Use it.
+Open HashDrop.
 
-Get your work done.
+Upload it.
+
+Get your hash.
+
+Use it.
 
 Move on.
 
-The file is automatically removed after inactivity.
+The file automatically expires after inactivity.
 
 ---
 
@@ -301,7 +357,7 @@ No unnecessary setup.
 
 Just:
 
-**Upload → Hash → Use → Expire**
+**Open → Upload → Hash → Use → Expire**
 
 ---
 
@@ -355,6 +411,7 @@ Close the tab.
 
 **That's it.**
 
-
+---
 
 ## Created by <a href="https://github.com/hailongcoding">@hailongcoding</a>
+
